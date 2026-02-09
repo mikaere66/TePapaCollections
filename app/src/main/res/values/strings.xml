@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <plurals name="additional_types">
+        <item quantity="one"><![CDATA[<B>Additional type</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Additional types</B>: %s]]></item>
+    </plurals>
+
+    <string name="app_name">Te Papa Collections</string>
+    <!-- Note escape of colon character, reqd for "String.format" -->
+    <string name="app_subtitle">%1$s\: (%2$s of %3$s)</string>
+    <string name="app_subtitle_filtered_by">Filtered by</string>
+    <string name="app_subtitle_of">of</string>
+    <string name="app_subtitle_search_by">Search by</string>
+
+    <plurals name="associated_parties">
+        <item quantity="one"><![CDATA[<B>Associated party</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Associated parties</B>: %s]]></item>
+    </plurals>
+    <plurals name="associated_parties_header"><!-- Note: no substitution here -->
+        <item quantity="one"><![CDATA[<B>Associated party</B>:]]></item>
+        <item quantity="other"><![CDATA[<B>Associated parties</B>:]]></item>
+    </plurals>
+    <string name="associated_with"><![CDATA[<B>Associated with</B>: %s]]></string>
+
+    <string name="back_button">Back</string>
+    <string name="background_description">Background image</string>
+
+    <string name="basis_of_record"><![CDATA[<B>Basis of Record</B>: %s]]></string>
+
+    <string name="birth_date"><![CDATA[<B>Birth date</B>: %s]]></string>
+
+    <string name="bottom_sheet_desc">Open bottom sheet</string>
+    <string name="bottom_sheet_dismiss">Dismiss</string>
+
+    <string name="caption_formatted"><![CDATA[<B>Caption</B>: %s]]></string>
+
+    <plurals name="categories">
+        <item quantity="one"><![CDATA[<B>Category</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Categories</B>: %s]]></item>
+    </plurals>
+
+    <string name="collection_label"><![CDATA[<B>Collection</B>: %s]]></string>
+    <plurals name="collection_labels">
+        <item quantity="one">@string/collection_label</item>
+        <item quantity="other"><![CDATA[<B>Collections</B>: %s]]></item>
+    </plurals>
+
+    <string name="common_description"><![CDATA[<B>Description</B>: %s]]></string>
+    <string name="common_manage_desc">Manage Search</string>
+    <string name="common_map_title">Map with Marker</string>
+    <string name="common_name"><![CDATA[<B>Name</B>: %s]]></string>
+    <string name="common_not_applicable">N/A</string>
+    <plurals name="common_purposes">
+        <item quantity="one"><![CDATA[<B>Purpose</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Purposes</B>: %s]]></item>
+    </plurals>
+    <string name="common_search_clear">Clear</string>
+    <string name="common_search_desc">Search</string>
+    <string name="common_search_hint">Enter your query</string>
+    <string name="common_toast_done">Done!</string>
+    <string name="common_two_args">%1$s (%2$s)</string>
+    <string name="common_type"><![CDATA[<B>Type</B>: %s]]></string>
+    <string name="common_undefined">Undefined</string>
+
+    <string name="credit_line"><![CDATA[<B>Credit</B>: %s]]></string>
+
+    <string name="death_date"><![CDATA[<B>Death date</B>: %s]]></string>
+    <string name="death_place"><![CDATA[<B>Death place</B>: %s]]></string>
+
+    <string name="details_manage_search_message">try
+        Manage Search to refine results</string>
+    <string name="details_placeholder_collection">Start
+        searching the Collections &#8230;</string>
+    <string name="details_placeholder_type">Start
+        by Searching by Media type &#8230;</string>
+
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_confirm">Yes</string>
+    <string name="dialog_deny">No</string>
+    <string name="dialog_got_it">Got It</string>
+
+    <!-- e.g. Average height 123mm (of 4 samples) -->
+    <string name="dimensions_avg_height">Average
+        height %1$.1f%2$s (of %3$d %4$s)</string>
+    <string name="dimensions_avg_length">Average
+        length %1$.1f%2$s (of %3$d %4$s)</string>
+    <string name="dimensions_avg_width">Average
+        width %1$.1f%2$s (of %3$d %4$s)</string>
+    <string name="dimensions_avg_weight">Average
+        weight %1$.1f%2$s (of %3$d %4$s)</string>
+    <string name="dimensions_header"><![CDATA[<B>Dimensions</B>:]]></string>
+    <string name="dimensions_none">[ dimensions not available ]</string>
+    <plurals name="dimension_samples">
+        <item quantity="one">sample</item>
+        <item quantity="other">samples</item>
+    </plurals>
+
+    <string name="dissolved_date"><![CDATA[<B>Dissolved</B>: %s]]></string>
+
+    <string name="download_desc">Download complete</string>
+    <string name="download_done">[ End of List ]</string>
+    <string name="download_more">Download more</string>
+
+    <string name="empty_filter_0">or</string>
+    <string name="empty_filter_1"><![CDATA[Nothing in list for
+        <B>%1$s</B><BR>when filtered by <B>%2$s</B><BR><BR>Try
+        a different filter/type, %3$s start a <I>new</I> search
+        to <B>replace</B> the existing query%4$s]]></string>
+    <string name="empty_filter_2"><![CDATA[or extend <I>this</I>
+        search by<BR>fetching more of the same]]></string>
+    <string name="empty_list"><![CDATA[Nothing
+        found in search for <B>%s</B>]]></string>
+    <string name="empty_message"><![CDATA[Retry
+        without <B>%s</B> filter?]]></string>
+
+    <string name="established_date"><![CDATA[<B>Established</B>: %s]]></string>
+
+    <plurals name="ethnicities">
+        <item quantity="one"><![CDATA[<B>Ethnicity</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Ethnicities</B>: %s]]></item>
+    </plurals>
+
+    <string name="evidence_country"><![CDATA[<B>Country</B>: %s]]></string>
+    <string name="evidence_header"><![CDATA[<B><I>Evidence for %s</I></B>:]]></string>
+    <string name="evidence_map_title">%s Point</string><!-- e.g. FieldCollection Point -->
+    <string name="evidence_recorded_by"><![CDATA[<B>Recorded by</B>: %s]]></string>
+    <string name="evidence_state_province"><![CDATA[<B>State/province</B>: %s]]></string>
+    <string name="evidence_title"><![CDATA[<B>Title</B>: %s]]></string>
+
+    <string name="fave_added">Fave added</string>    <!-- Toast -->
+    <string name="fave_is_favourite_message"><![CDATA[<B>%s</B>
+         is <I>already</I> a favourite &#8230;<BR>
+         <BR>Remove this item from favourites?]]></string>
+    <string name="fave_not_favourite_message"><![CDATA[<B>%s</B>
+         is <I>not yet</I> a favourite &#8230;<BR>
+         <BR>Add this item to your favourites?]]></string>
+    <string name="fave_removed">Fave removed</string><!-- Toast -->
+    <string name="faves_add_desc">Add favourite</string>
+    <string name="faves_added"><![CDATA[<B>Added</B>: %s]]></string>
+    <string name="faves_error">Database error!</string>
+    <string name="faves_message"><![CDATA[This action will remove <B>all</B>
+        favourites,<BR>and cannot be undone &#8230; continue?]]></string>
+    <string name="faves_remove_desc">Remove favourite</string>
+    <string name="faves_sort_by_desc">Favourites sorted by</string>
+    <string name="faves_sort_by_date">Sort by Date added</string>
+    <string name="faves_sort_by_name">Sort by Name</string>
+    <string name="faves_sort_by_type">Sort by Type</string>
+    <string name="faves_subtitle">Your favourites (%d)</string>
+    <string name="favourites_empty">All favourites removed</string>
+
+    <string name="file_format"><![CDATA[<B>File format</B>: %s]]></string>
+    <plurals name="file_permissions">
+        <item quantity="one"><![CDATA[<B>Permission</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Permissions</B>: %s]]></item>
+    </plurals>
+    <plurals name="file_types">
+        <item quantity="one"><![CDATA[<B>Media type</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Media types</B>: %s]]></item>
+    </plurals>
+
+    <!-- Upon going back to Search All after carrying out a
+         DIFFERENT search while in Manage Search phase -->
+    <string name="filter_invalid"><![CDATA[Unfortunately, your
+        <I>original</I> search<BR>results are <B>no longer valid</B>,
+        due<BR>to performing a <I>different</I> search]]></string>
+    <string name="filter_off">Remove filter &amp; retry</string>
+
+    <string name="forbidden_api_key"><![CDATA[MoNZ says that the <B>API
+        key</B><BR>provided by this app is <B>invalid</B>]]></string>
+    <string name="forbidden_api_key_short">MoNZ says API key invalid</string>
+    <string name="found_not_message"><![CDATA[MoNZ
+        says: <B>%s</B> not found]]></string>
+    <string name="found_not_message_short">MoNZ says item not found</string>
+
+    <string name="gender"><![CDATA[<B>Gender</B>: %s]]></string>
+
+    <string name="geo_location_available"><![CDATA[<B>Map
+        coordinates available</B>: %s]]></string>
+    <string name="geo_location_no">No</string>
+    <string name="geo_location_yes">Yes</string>
+
+    <string name="help_sample_menu_1">By Type items</string>
+    <string name="help_sample_menu_2">Object items</string>
+    <string name="help_sample_menu_3">Specimen items</string>
+
+    <string name="help_section_intro">Welcome to the Te Papa Collections app, where
+        you can explore &amp; discover the many wonders of the Museum of New
+        Zealand, Te Papa Tongarewa, located in Cable Street, Wellington. Within the
+        different sections of this app, you can search the different sections of the
+        museum. You can search by type (14 in all), or by collection: whether that\'s
+        an object (9 collections) or a specimen (13 collections). Check out the
+        three-dot menu at top right to see a sample of each type/collection.</string>
+    <string name="help_section_options"><![CDATA[In each of the sections, although
+        the actual results will differ, the methods of searching are the same. Use
+        the <B>Manage Search</B> icon (an example of which is shown on each search
+        page) to choose either your preferred type or collection, and/or to focus
+        the query by specifying exact match, any word, all words, etc.]]></string>
+    <string name="help_section_faves"><![CDATA[If you add a search result as a
+        favourite, it will show up in the <B>Your Favourites</B> section of
+        the app. The absolute <I>minimum</I> of information, including a
+        direct link to that record, is saved locally to enable retrieval of
+        the item. When reviewing a favourite, the item is redownloaded for
+        display. Favourites can be sorted by date added, by name, or by type.
+        You can remove favourites either singularly, by using the Remove Favourite
+        icon next to each fave, or you can remove <I>all</I> favourites by
+        accessing the three-dot menu in the Your Favourites section.]]></string>
+    <string name="help_section_settings_1"><![CDATA[In the <B>Settings</B> section
+        of the app, you can specify the number of results to retrieve each time. If
+        there are <I>more</I> results than this number available, you can download
+        these \"on the fly\" if desired. There\'s the option to save <I>successful</I>
+        queries to the app database on your device, for future use. For privacy
+        reasons, this setting is <I>not</I> enabled by default. These queries
+        can be cleared at any time from the three-dot menu in Settings.]]></string>
+    <string name="help_section_settings_2"><![CDATA[Also in Settings is the option to
+        save the <B>time &amp; date</B> when adding an item to your favourites. This
+        timestamp will show at the bottom of each listing in your favourites list, if
+        enabled. You also have a setting to show a Hybrid/<B>Satellite</B> map-type
+        when viewing Places on the map. One <I>final</I> setting enables viewing full
+        screen images at their maximum bounds, meaning that you can then \"scroll\"
+        the image either left/right or up/down to view it in its entirety.]]></string>
+
+    <plurals name="higher_classifications">
+        <item quantity="one"><![CDATA[<B>Higher classification</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Higher classifications</B>: %s]]></item>
+    </plurals>
+
+    <string name="hrefs_subtitle">Reference Details</string>
+
+    <string name="icons_legend">Icons Legend</string>
+
+    <!-- Special char following bullet-points is non-breaking space -->
+    <string name="id_by"><![CDATA[•\u00A0<B>Identified by</B>: %s]]></string>
+    <string name="id_date"><![CDATA[•\u00A0<B>Date identified</B>: %s]]></string>
+    <string name="id_header"><![CDATA[<I><B>Identification</B>
+        (%1$d %2$s)</I>:]]></string><!-- i.e. (2 specimens) -->
+    <plurals name="id_higher_classifications">
+        <item quantity="one"><![CDATA[•\u00A0<B>Higher classification</B>: %s]]></item>
+        <item quantity="other"><![CDATA[•\u00A0<B>Higher classifications</B>: %s]]></item>
+    </plurals>
+    <!-- Note : qualified name AND its value are BOTH shown in bold -->
+    <string name="id_qual_name"><![CDATA[•\u00A0<B>Qualified name</B>: %s]]></string><!--
+    <string name="id_sci_name"><![CDATA[•\u00A0<B>Scientific name</B>: %s]]></string> -->
+    <plurals name="id_specimens">
+        <item quantity="one">specimen</item>
+        <item quantity="other">specimens</item>
+    </plurals>
+    <plurals name="id_vernacular_names"><!-- See also vernacular EOF -->
+        <item quantity="one"><![CDATA[•\u00A0<B>Vernacular name</B>: %s]]></item>
+        <item quantity="other"><![CDATA[•\u00A0<B>Vernacular names</B>: %s]]></item>
+    </plurals>
+
+    <plurals name="image_objects">
+        <item quantity="one"><![CDATA[<B>Image</B> (%d):]]></item>
+        <item quantity="other"><![CDATA[<B>Images</B> (%d):]]></item>
+    </plurals>
+
+    <!-- Used for both icon contentDescription and bottomSheet header ...
+         in the case of the header, a colon (:) is added programmatically -->
+    <string name="image_info_desc">Image info</string>
+
+    <string name="image_info_height">Height: %d</string>
+      <string name="image_info_width">Width: %d</string>
+      <string name="image_info_bytes">Size: %1$.0f %2$s</string><!-- 0 decimal places -->
+    <string name="image_info_x_bytes">Size: %1$.2f %2$s</string><!-- 2 decimal places -->
+
+    <!-- e.g. "(1/5) Skeleton of Phar Lap -->
+    <string name="image_label">(%1$d/%2$d) %3$s</string>
+    <!-- These two are used independently -->
+    <string name="image_retry">Retry image</string>
+    <string name="images_retry">Retry images</string>
+
+    <string name="intro_with_ellipses">&#8230; %s &#8230;</string>
+
+    <string name="intro_explorer">fourteen types</string>
+        <string name="intro_main">App home screen</string>
+    <string name="intro_faves">bookmarked items</string>
+    <string name="intro_settings">map | query options</string>
+    <string name="intro_help">tips &amp; tricks</string>
+
+        <string name="intro_category">For example, a thing</string>
+    <string name="intro_image_object">An image file</string>
+
+    <string name="intro_hrefs">References</string>
+
+    <string name="intro_images">All images</string>
+    <string name="intro_image">Single image</string>
+
+    <string name="intro_object">of cultural value</string>
+
+    <string name="intro_organisation">An organised group</string>
+    <string name="intro_person">A human being</string>
+    <string name="intro_place">A location in space</string><!-- Also maps -->
+    <string name="intro_publication">Formally published document</string>
+
+    <string name="intro_specimen">biological objects</string>
+
+    <string name="intro_taxon">A biological classification</string>
+    <string name="intro_topic">A narrative or description</string>
+
+    <string name="loading_anim">Downloading &#8230;</string>
+    <string name="loading_disabled">Download disabled</string>
+    <string name="loading_failed">Failed to load</string>
+    <string name="loading_retry">Retry</string>
+
+    <!-- Note escape of colon character, reqd for "String.format" -->
+    <string name="media_title"><![CDATA[%1$s\: <B>%2$s</B>]]></string>
+    <!-- To clarify as a "rank", e.g. military,
+         rather than as a location or place -->
+    <string name="media_type_is_position">%s (Rank)</string>
+
+    <string name="meta_created"><![CDATA[<B>Catalogued</B>:]]></string>
+    <string name="meta_modified"><![CDATA[<B>Modified</B>:]]></string>
+
+    <string name="menu_clear_history">Remove History Items</string>
+    <string name="menu_clear_list">Clear Search Results</string>
+    <string name="menu_faves_delete_all">Remove all Faves</string>
+    <string name="menu_icons_legend">Icons Legend</string>
+    <string name="menu_reset_settings">Restore App Defaults</string>
+    <string name="menu_search_off">Search by Name</string>
+    <string name="menu_search_on">Close/cancel Search</string>
+    <string name="menu_toggle_desc">Toggle menu</string>
+    <string name="menu_toggle_fave">Toggle Favourite</string>
+    <string name="menu_zoom_in_out">Reset zoom</string>
+
+    <plurals name="nationalities">
+        <item quantity="one"><![CDATA[<B>Nationality</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Nationalities</B>: %s]]></item>
+    </plurals>
+
+    <string name="nav_search">Explore/Search All</string>
+    <string name="nav_collections_header">Collections</string>
+    <string name="nav_objects">Search Objects</string>
+    <string name="nav_specimens">Search Specimens</string>
+    <string name="nav_faves">Your Favourites</string>
+    <string name="nav_settings">App Settings</string>
+    <string name="nav_help">Help | About</string>
+
+    <string name="nav_images">All images for: %s</string> <!-- Multi -->
+     <string name="nav_image">Full size image: %s</string><!-- Single -->
+
+    <string name="nav_type_category">Category</string>
+    <string name="nav_type_collaboration">Collaboration</string>
+    <string name="nav_type_group">Group</string>
+    <string name="nav_type_image_object">Image Object</string>
+    <string name="nav_type_object">Object</string>
+    <string name="nav_type_organisation">Organisation</string>
+    <string name="nav_type_person">Person</string>
+    <string name="nav_type_place">Place</string>
+    <string name="nav_type_position">Position (Rank)</string>
+    <string name="nav_type_publication">Publication</string>
+    <string name="nav_type_specimen">Specimen</string>
+    <string name="nav_type_taxon">Taxon</string>
+    <string name="nav_type_text_digital_doc">Text Digital Document</string>
+    <string name="nav_type_topic">Topic</string>
+
+    <string name="narrative_summary"><![CDATA[<B>Summary</B>: %s]]></string>
+
+    <string name="no_further_info">No further Info</string>
+
+    <string name="object_created_dates"><![CDATA[<B>Created</B>: %s]]></string>
+    <string name="object_is_made_of"><![CDATA[<B>Made of</B>: %s]]></string>
+    <plurals name="object_contributors">
+        <item quantity="one"><![CDATA[<B>Contributor</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Contributors</B>: %s]]></item>
+    </plurals>
+
+    <string name="open_in_new_desc">Open in browser</string>
+
+    <plurals name="place_nations">
+        <item quantity="one"><![CDATA[<B>Nation</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Nations</B>: %s]]></item>
+    </plurals>
+    <string name="place_on_map">View place on Map</string><!-- Common -->
+
+    <plurals name="publication_authors">
+        <item quantity="one"><![CDATA[<B>Author</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Authors</B>: %s]]></item>
+    </plurals>
+    <plurals name="publication_dates">
+        <item quantity="one"><![CDATA[<B>Publication date</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Publication dates</B>: %s]]></item>
+    </plurals>
+    <plurals name="publication_publishers">
+        <item quantity="one"><![CDATA[<B>Publisher</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Publishers</B>: %s]]></item>
+    </plurals>
+    <plurals name="publication_types">
+        <item quantity="one"><![CDATA[<B>Publication type</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Publication types</B>: %s]]></item>
+    </plurals>
+
+    <plurals name="purposes">
+        <item quantity="one"><![CDATA[<B>Purpose</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Purposes</B>: %s]]></item>
+    </plurals>
+
+        <string name="query_option_any">Any word (wide ranging)</string>
+       <string name="query_option_all">All words (narrow range)</string>
+    <string name="query_option_phrase">As phrase (exact lookup)</string>
+
+    <string name="reference_not_available">Not for nested results</string>
+
+    <string name="referenced_by"><![CDATA[<I><B>Referenced by</B></I>:]]></string>
+    <string name="referenced_by_header">Referenced by (%d):</string>
+    <string name="referenced_by_item_cat">Categories (%d)</string><!-- Just Category -->
+    <plurals name="referenced_by_item_other">
+        <item quantity="one">%1$s (%2$d)</item>
+        <item quantity="other">%1$ss (%2$d)</item><!-- Note extra "s" -->
+    </plurals>
+
+    <string name="refers_to"><![CDATA[<B>Refers to</B>: %s]]></string>
+    <string name="refers_to_header">Refers to (%d):</string>
+
+    <plurals name="related_objects">
+        <item quantity="one"><![CDATA[<B>Related object</B>:]]></item>
+        <item quantity="other"><![CDATA[<B>Related objects</B>:]]></item>
+    </plurals>
+    <plurals name="related_objects_header">
+        <item quantity="one">Related object (%d):</item>
+        <item quantity="other">Related objects (%d):</item>
+    </plurals>
+    <plurals name="related_terms">
+        <item quantity="one"><![CDATA[<B>Related term</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Related terms</B>: %s]]></item>
+    </plurals>
+    <plurals name="related_topics">
+        <item quantity="one"><![CDATA[<B>Related topic</B>:]]></item>
+        <item quantity="other"><![CDATA[<B>Related topics</B>:]]></item>
+    </plurals>
+    <plurals name="related_topics_header">
+        <item quantity="one">Related topic (%d):</item>
+        <item quantity="other">Related topics (%d):</item>
+    </plurals>
+    <string name="related_web_page_without_title">External web link</string>
+    <string name="related_web_page_with_title">External web link (%s)</string>
+
+    <string name="results_subtitle">Result Details</string>
+
+    <string name="rights_access">Rights access (MoNZ)</string>
+    <string name="rights_holder"><![CDATA[<B>Rights holder</B>:<BR>%s]]></string>
+
+    <string name="search_all">Search all</string>
+    <string name="search_by">Search by %s</string>
+    <string name="search_desc">Manage search</string>
+      <string name="search_media">Select Media</string>
+    <string name="search_options">Query Options</string>
+    <string name="search_within">Search within results</string>
+
+    <string name="scope_note"><![CDATA[<B>Note</B>: %s]]></string>
+    <string name="scope_notes"><![CDATA[<B>Notes</B>:]]></string>
+
+    <string name="setting_num_results_label">Select quantity</string>
+    <string name="setting_num_results_text">Number of results to fetch each time</string>
+
+    <string name="setting_save_date_faves">Save time/date when adding to Faves</string>
+
+    <string name="setting_save_history_text">Save/restore history for each query</string>
+
+     <string name="setting_show_satellite_view">Show satellite view on Place maps</string>
+
+    <string name="setting_zoom_image_full_scrn">Zoom fullscreen image to fill space</string>
+
+    <string name="settings_reset_message"><![CDATA[This action will reset <B>all</B>
+        current settings<BR>to their app default values &#8230; continue?]]></string>
+
+    <string name="snackbar_got_it">Got It</string>
+
+    <string name="taxon_class"><![CDATA[<B>Class</B>: %s]]></string>
+    <string name="taxon_family"><![CDATA[<B>Family</B>: %s]]></string>
+    <string name="taxon_genus"><![CDATA[<B>Genus</B>: %s]]></string>
+    <string name="taxon_kingdom"><![CDATA[<B>Kingdom</B>: %s]]></string>
+    <string name="taxon_order"><![CDATA[<B>Order</B>: %s]]></string>
+    <string name="taxon_phylum"><![CDATA[<B>Phylum</B>: %s]]></string>
+    <string name="taxon_rank"><![CDATA[<B>Rank</B>: %s]]></string>
+
+    <plurals name="terms_alternative">
+        <item quantity="one"><![CDATA[<B>Alternative term</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Alternative terms</B>: %s]]></item>
+    </plurals>
+    <plurals name="terms_broader">
+        <item quantity="one"><![CDATA[<B>Broader term</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Broader terms</B>: %s]]></item>
+    </plurals>
+    <plurals name="terms_narrower">
+        <item quantity="one"><![CDATA[<B>Narrower term</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Narrower terms</B>: %s]]></item>
+    </plurals>
+
+    <string name="toast_none_fave">No coords for this Fave</string>
+    <string name="toast_none_other">No maps for %s type</string>
+    <string name="toast_none_place">No coords for %s</string>
+
+    <string name="topic_narrative"><![CDATA[<B>Narrative</B>: %s]]></string>
+
+    <plurals name="vernacular_names">
+        <item quantity="one"><![CDATA[<B>Vernacular name</B>: %s]]></item>
+        <item quantity="other"><![CDATA[<B>Vernacular names</B>: %s]]></item>
+    </plurals>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="loading_anim_duration">2000</integer>
+
+    <integer name="narrative_summary_max_lines">2</integer>
+
+    <integer name="thumbnails_to_display">3</integer>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="help_samples">
+        <item>@string/help_sample_menu_1</item>
+        <item>@string/help_sample_menu_2</item>
+        <item>@string/help_sample_menu_3</item>
+    </string-array>
+
+    <string-array name="help_sections">
+        <item>@string/help_section_intro</item>
+        <item>@string/help_section_options</item>
+        <item>@string/help_section_faves</item>
+        <item>@string/help_section_settings_1</item>
+        <item>@string/help_section_settings_2</item>
+    </string-array>
+
+    <string-array name="query_options">
+        <item>@string/query_option_any</item>
+        <item>@string/query_option_all</item>
+        <item>@string/query_option_phrase</item>
+    </string-array>
+
+    <integer-array name="settings_num_results">
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+    </integer-array>
+
+</resources>
