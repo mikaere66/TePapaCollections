@@ -453,7 +453,7 @@
     <string name="setting_num_results_label">Select quantity</string>
     <string name="setting_num_results_text">Number of results to fetch each time</string>
 
-    <string name="setting_save_date_faves">Save time/date when adding to Faves</string>
+    <string name="setting_save_date_faves">Save time/date when adding Faves</string>
 
     <string name="setting_save_history_text">Save/restore history for each query</string>
 

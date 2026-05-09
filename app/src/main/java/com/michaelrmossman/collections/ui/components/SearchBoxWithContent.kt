@@ -43,6 +43,7 @@ import java.util.Locale
 /* SearchBoxWithContent is used to search
    WITHIN results, from [*DetailsScreen]s */
 @Composable
+
 fun SearchBoxWithContent(
     content: @Composable () -> Unit,
     contentPadding: PaddingValues,
