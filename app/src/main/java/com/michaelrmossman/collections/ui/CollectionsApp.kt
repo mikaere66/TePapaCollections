@@ -228,11 +228,11 @@ fun CollectionsApp(windowWidthSize: WindowWidthSizeClass) {
                     imageObjects = currentScreen.imageObjects,
                     itemTitle = currentScreen.itemTitle,
                     onClickBackButton = { collectionsViewModel.pop() },
-                    onClickImage = { imageObject, itemTitle ->
-                        collectionsViewModel.put(
-                            CurrentScreen.ImageScreen(imageObject, itemTitle)
-                        )
-                    },
+//                    onClickImage = { imageObject, itemTitle ->
+//                        collectionsViewModel.put(
+//                            CurrentScreen.ImageScreen(imageObject, itemTitle)
+//                        )
+//                    },
                     stringId = currentScreen.titleStringId
                 )
             }

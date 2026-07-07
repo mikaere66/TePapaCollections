@@ -33,13 +33,15 @@ import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
+import com.michaelrmossman.collections.CollectionsApplication
 import com.michaelrmossman.collections.R
 import com.michaelrmossman.collections.model.SearchResult.ImageObject
 import com.michaelrmossman.collections.ui.SharedViewModel
 import com.michaelrmossman.collections.ui.components.ImageInfoButton
 import com.michaelrmossman.collections.ui.components.TwoLineAppBar
 
-/* Single image */
+/* Single image. Disabled 20260707: imageObject.contentUrl
+   returns error message "Missing Authentication Token" */
 @Composable
 fun AnImageScreen(
     imageObject: ImageObject,
@@ -49,6 +51,7 @@ fun AnImageScreen(
     modifier: Modifier = Modifier
 ) {
     val additionalPadding = dimensionResource(R.dimen.padding_mini)
+    val apiKey = CollectionsApplication.Companion.apiKey
     val columnModifier = Modifier.fillMaxSize()
     val context = LocalContext.current
     val sharedViewModel: SharedViewModel = viewModel(
@@ -187,6 +190,8 @@ fun AnImageScreen(
                                 context = context
                             )
                             .data(imageObject.contentUrl)
+                            // TODO: this is NOT working!
+                            .addHeader("Authorization", "Bearer $apiKey")
                             .crossfade(true)
                             .listener(
                                 onError = { _, _ ->

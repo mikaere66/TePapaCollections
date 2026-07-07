@@ -38,7 +38,7 @@ fun AllImagesScreen(
     imageObjects: List<ImageObject>,
     itemTitle: String,
     onClickBackButton: () -> Unit,
-    onClickImage: (ImageObject, String) -> Unit,
+    // onClickImage: (ImageObject, String) -> Unit,
     @StringRes stringId: Int,
     modifier: Modifier = Modifier
 ) {
@@ -98,13 +98,14 @@ fun AllImagesScreen(
                     itemsIndexed(
                         items = imageObjects,
                     ) { index, imageObject ->
+                        // android.util.Log.d("HEY",imageObject.contentUrl)
                         Card(
                             elevation = CardDefaults.cardElevation(
                                 defaultElevation = dimensionResource(
                                     R.dimen.card_elevation
                                 )
                             ),
-                            onClick = { onClickImage(imageObject, itemTitle) },
+                            // onClick = { onClickImage(imageObject, itemTitle) },
                             shape = RoundedCornerShape(roundedCornerShape)
                         ) {
                             AsyncImage(
